@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Partners
+title: Partner
 permalink: /partners/
 inheader: true
 ---
