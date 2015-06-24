@@ -2,6 +2,7 @@
 layout: page
 title: Partners
 permalink: /partners/
+inheader: true
 ---
 
 Ein **FETTES** Dankeschön an unsere Partner und Sponsoren, auf die wir bisher zählen durften. Ohne euch wären all die tollen Meetups nicht möglich gewesen!

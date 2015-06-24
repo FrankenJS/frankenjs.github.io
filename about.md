@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+inheader: true
 ---
 
 Du bist begeisterter JavaScript Developer? Du stehst auf Frontend-, oder doch eher auf NodeJS / io.js Development? Internet of Things sind dir ein Begriff? Dann komm vorbei! Wir treffen uns regelmäßig und tauschen uns über die aktuellsten Trends im JavaScript-Umfeld aus.
