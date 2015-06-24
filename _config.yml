@@ -1,0 +1,13 @@
+# Site settings
+title: FrankenJS
+email: servus@frankenjs.org
+description: >
+  Frankens finest JavaScript user group!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://frankenjs.org" # the base hostname & protocol for your site
+twitter_username: FrankenJS
+github_username:  FrankenJS
+meetup_username:  FrankenJS
+
+# Build settings
+markdown: kramdown
