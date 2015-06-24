@@ -5,9 +5,35 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    height: 250px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    background: url('../assets/header.jpeg') center center no-repeat;
+    background-size: cover;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        
+        background-image:
+            -webkit-radial-gradient(80% 10%, circle, red, transparent),
+            -webkit-radial-gradient(80% 50%, circle, yellow, transparent),
+            -webkit-radial-gradient(20% 80%, 40em 40em, #fff, transparent),
+            -webkit-radial-gradient(10% 10%, circle, orange, transparent);
+            
+        opacity: .6; 
+    }
+
+    .wrapper {
+        position: relative;
+        z-index: 100;
+    }
 }
 
 .site-title {
@@ -19,7 +45,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $grey-color-light;
     }
 }
 
@@ -32,7 +58,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $grey-color-light;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one

@@ -4,8 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Du bist begeisterter JavaScript Developer? Du stehst auf Frontend-, oder doch eher auf NodeJS / io.js Development? Internet of Things sind dir ein Begriff? Dann komm vorbei! Wir treffen uns regelmäßig und tauschen uns über die aktuellsten Trends im JavaScript-Umfeld aus.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Werde Mitglied auf [meetup.com](http://meetup.com/{{ site.meetup_username }}) und verpasse keines unserer Events.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+# Organized by ...
+
+<ul>
+{% for member in site.data.team %}
+  <li>
+    <a href="https://twitter.com/{{ member.twitter }}" target="_blank">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
