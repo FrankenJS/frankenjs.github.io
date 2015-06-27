@@ -22,5 +22,9 @@ Hands-On: es reicht, wenn ihr eure Smartphones mitbringt. Der Code wird im Ansch
 
 Wir haben noch einen offenen Slot. Wer möchte ist herzlich eingeladen, Projekte, Ideen oder Themen auf unserem Meetup zu präsentieren. Wir würden uns sehr freuen!
 
-[next-meetup]: http://www.meetup.com/de/FrankenJS/
+# Reserve Now
+
+Bitte bestätigt eure Teilnahme über [meetup.com][next-meetup].
+
+[next-meetup]: http://www.meetup.com/FrankenJS/events/223541293/
 [peter-mueller]: http://twitter.com/BaggersIO
