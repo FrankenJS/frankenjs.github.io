@@ -2,7 +2,6 @@
 layout: post
 title:  "FrankenJS #8 - Web Components & Polymer"
 date:   2015-06-24 18:00:00
-categories: frankenjs website
 ---
 
 Save the date: das [nächste Meetup][next-meetup] findet am Donnerstag, den `25. Juni`, im `Coworking Space Nürnberg` statt.
