@@ -10,9 +10,9 @@ Save the date: das [nächste Meetup][next-meetup] findet am Donnerstag, den `23.
 
 **Offline-First Web Applications** by [Peter Müller][peter-mueller]
 
-Web Applications nähern sich durch HTML5 und Look & Feel vermehrt nativen Anwendungen an. Ein Bottleneck ist dennoch bis heute geblieben: durch instabile Internetverbindung verliert die Applikation ihren nativen Charakter und ist nur eingeschränkt, oder gar nicht mehr nutzbar.
+Web Applications nähern sich durch HTML5 und Look & Feel vermehrt nativen Anwendungen an. Ein Bottleneck ist dennoch bis heute geblieben: durch instabile eine Internetverbindung verliert die Applikation ihren nativen Charakter und ist nur eingeschränkt oder gar nicht mehr nutzbar.
 
-In diesem Talk gehen wir auf `Caching Stategien`, HTML5 Features, wie `Session- und Local-Storage`, `AppCache`, sowie `Service Worker` ein. Außerdem werden wir eine bestehende Application schrittweise in einer kleinen Hands-On-Session offline zur Verfügung stellen.
+In diesem Talk wird auf `Caching Stategien`, HTML5 Features wie `Session- und Local-Storage`, `AppCache`, sowie `Service Worker` eingegangen. Außerdem werden wir eine bestehende Application schrittweise in einer kleinen Hands-On-Session offline zur Verfügung stellen.
 
 Hands-On: es reicht, wenn ihr eure Smartphones mitbringt. Der Code wird im Anschluss auf GitHub zur Verfügung gestellt.
 
