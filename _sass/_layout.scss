@@ -22,6 +22,11 @@
         left: 0;
         
         background-image:
+            radial-gradient(circle at 80% 10%, red, transparent),
+            radial-gradient(circle at 80% 50%, yellow, transparent),
+            radial-gradient(40em 40em at 20% 80%, #fff, transparent),
+            radial-gradient(circle at 10% 10%, orange, transparent);
+        background-image:
             -webkit-radial-gradient(80% 10%, circle, red, transparent),
             -webkit-radial-gradient(80% 50%, circle, yellow, transparent),
             -webkit-radial-gradient(20% 80%, 40em 40em, #fff, transparent),
@@ -31,11 +36,6 @@
             -ms-radial-gradient(80% 50%, circle, yellow, transparent),
             -ms-radial-gradient(20% 80%, 40em 40em, #fff, transparent),
             -ms-radial-gradient(10% 10%, circle, orange, transparent);
-        background-image:
-            -moz-radial-gradient(80% 10%, circle, red, transparent),
-            -moz-radial-gradient(80% 50%, circle, yellow, transparent),
-            -moz-radial-gradient(20% 80%, 40em 40em, #fff, transparent),
-            -moz-radial-gradient(10% 10%, circle, orange, transparent);
 
         opacity: .6; 
     }
