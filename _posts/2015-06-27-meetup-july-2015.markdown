@@ -40,4 +40,4 @@ Bitte bestätigt eure Teilnahme über [meetup.com][next-meetup].
 [angular-air]: https://twitter.com/AngularAir
 [angular-translate]: https://angular-translate.github.io/
 [recent-talks]: https://www.youtube.com/playlist?list=PLauX9TuJ8sfw6FH2doAbCi5Y-8GJHLqtb
-[pascal-website]: http://pascalprecht.github.io 
+[pascal-website]: http://pascalprecht.github.io
