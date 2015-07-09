@@ -26,6 +26,8 @@ In this talk we want to take a seat, set up a very cozy virtual fireplace and ha
 
 *Trainer at [thoughtram][thoughtram-website], Developer Advocate, Panelist at [@AngularAir][angular-air], Father of [angular-translate][angular-translate]. Globetrotter and Vimthusiast*
 
+Check out Pascals [recent talks][recent-talks] (YouTube) and [website][pascal-precht].
+
 # Reserve Now
 
 Bitte bestätigt eure Teilnahme über [meetup.com][next-meetup].
@@ -37,3 +39,5 @@ Bitte bestätigt eure Teilnahme über [meetup.com][next-meetup].
 [thoughtram-twitter]: http://twitter.com/thoughtram
 [angular-air]: https://twitter.com/AngularAir
 [angular-translate]: https://angular-translate.github.io/
+[recent-talks]: https://www.youtube.com/playlist?list=PLauX9TuJ8sfw6FH2doAbCi5Y-8GJHLqtb
+[pascal-website]: http://pascalprecht.github.io 
