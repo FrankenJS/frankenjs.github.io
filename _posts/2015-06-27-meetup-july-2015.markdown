@@ -36,7 +36,7 @@ Bitte bestätigt eure Teilnahme über [meetup.com][next-meetup].
 
 Wir sind stolz auf unseren neuen Sponsor, [JScrambler][jscrambler-website] aus Portugal, welcher uns Drinks & Snacks für dieses Event zur Verfügung stellt!
 
-![JScrambler]({{ site.url }}/assets/jscrambler.png)
+<img src="{{ site.url }}/assets/jscrambler.png" style="float: left;">
 
 *JScrambler is the most mature, complete and sophisticated JavaScript and HTML5 protection on the market. It iscurrently the only solution that not only protects desktop web apps, but also secures HTML5, mobile, and web gamingapplications. It has been the world leader in this technology space since 2010 and is used by more than 20.000 customers around over 130 countries.
 JScrambler is a professional tool which not only provides tens of different source code transformations (i.e. function outlining, string obfuscation, among several others) but also provides several code locks and self-defending features that keep your code safe from anyone who tries to copy, steal or tamper with your code. Besides, it offers you access to a great support team composed of JavaScript experts that help you protect your code in the most resilient way possible.
