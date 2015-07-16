@@ -28,9 +28,21 @@ In this talk we want to take a seat, set up a very cozy virtual fireplace and ha
 
 Check out Pascals [recent talks][recent-talks] (YouTube) and [website][pascal-precht].
 
-# Reserve Now
+## Reserve Now
 
 Bitte bestätigt eure Teilnahme über [meetup.com][next-meetup].
+
+# Sponsored by jscrambler
+
+Wir sind stolz auf unseren neuen Sponsor, [JScrambler][jscrambler-website] aus Portugal, welcher uns Drinks & Snacks für dieses Event zur Verfügung stellt!
+
+![JScrambler]({{ site.url }}/assets/jscrambler.png)
+
+*JScrambler is the most mature, complete and sophisticated JavaScript and HTML5 protection on the market. It iscurrently the only solution that not only protects desktop web apps, but also secures HTML5, mobile, and web gamingapplications. It has been the world leader in this technology space since 2010 and is used by more than 20.000 customers around over 130 countries.
+JScrambler is a professional tool which not only provides tens of different source code transformations (i.e. function outlining, string obfuscation, among several others) but also provides several code locks and self-defending features that keep your code safe from anyone who tries to copy, steal or tamper with your code. Besides, it offers you access to a great support team composed of JavaScript experts that help you protect your code in the most resilient way possible.
+For example, if you develop and sell JavaScript applications you’ll want to prevent that someone that didn’t pay or whose license has expired from executing your JavaScript. With JScrambler, you can lock your code to a predefined list of domains or OSs. If someone places it anywhere else, it will not execute correctly. You can also use the Expiration Date feature to deliver expirable demos to your clients without incurring in the fear of Javascript code theft or client-loss.
+This is just a peak on all you can do to start protecting your JavaScript and your app. Go to jscrambler.com and discover more. You've invested a lot on your JavaScript code, why give it away for free?*
+
 
 [next-meetup]: http://www.meetup.com/FrankenJS/events/223541293/
 [peter-mueller]: http://twitter.com/BaggersIO
@@ -41,3 +53,4 @@ Bitte bestätigt eure Teilnahme über [meetup.com][next-meetup].
 [angular-translate]: https://angular-translate.github.io/
 [recent-talks]: https://www.youtube.com/playlist?list=PLauX9TuJ8sfw6FH2doAbCi5Y-8GJHLqtb
 [pascal-website]: http://pascalprecht.github.io
+[jscrambler-website]: https://jscrambler.com
