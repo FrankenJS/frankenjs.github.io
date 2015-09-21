@@ -10,7 +10,7 @@ Save the date: das [nächste Meetup][next-meetup] findet am Donnerstag, den `24.
 
 **Polymer Summit Trip Report** by [Markus Kramer][markus-kramer] & [Sebastian Metzger][sebastian-metzger]
 
-Um ihre auf Web Components basierende Polymer Library zu promoten, hat Google in Amsterdam am 14. und 15.09. den Polymer Summit abgehalten. Markus und Sebastian waren vor Ort und wollen beim MeetUp einen kurzen Bericht abliefern über das Event und die interessantesten Neuerungen und Erkenntnisse aus den Talks kurz präsentieren.
+Um ihre auf Web Components basierende Polymer Library zu promoten, hat Google in Amsterdam am 14. und 15.09. den [Polymer Summit][polymer-summit] abgehalten. Markus und Sebastian waren vor Ort und wollen beim MeetUp einen kurzen Bericht abliefern über das Event und die interessantesten Neuerungen und Erkenntnisse aus den Talks kurz präsentieren.
 
 ## Reserve Now
 
