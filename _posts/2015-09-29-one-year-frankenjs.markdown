@@ -22,10 +22,9 @@ the perfect fit for Game Jams.
 [@markusfisch][markus-fisch-github] (GitHub)<br />
 [markusfisch.de][markus-fisch-www] (WWW)
 
-# Call For Speakers
+**Second amazing talk will be confirmed soon!**
 
-We've a second open slot to present fancy JavaScript & HTML5 stuff or amazing projects. If you want to give a talk feel free to ping us via [servus@frankenjs.org][frankenjs-email] :)
-
+... stay tuned ...
 
 # Want to Contribute or Fund?
 
