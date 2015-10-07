@@ -24,7 +24,7 @@ the perfect fit for Game Jams.
 
 **React, Flux & Redux** by [Sebastian Deutsch][sebastian-deutsch-twitter]
 
-All you ever wanted to know about React / Redux but you where always afraid to ask.
+All you ever wanted to know about React / Redux but you were always afraid to ask.
 
 Sebastian founded the [German ReactJS Community - reactjs.de][reactjsde]. Feel free to have 
 a look at his project [photoeditorsdk.com][photoeditorsdk] as well.
