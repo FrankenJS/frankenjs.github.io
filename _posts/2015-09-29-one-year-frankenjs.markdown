@@ -22,9 +22,15 @@ the perfect fit for Game Jams.
 [@markusfisch][markus-fisch-github] (GitHub)<br />
 [markusfisch.de][markus-fisch-www] (WWW)
 
-**Second amazing talk will be confirmed soon!**
+**React, Flux & Redux** by [Sebastian Deutsch][sebastian-deutsch-twitter]
 
-... stay tuned ...
+All you ever wanted to know about React / Redux but you where always afraid to ask.
+
+Sebastian founded the [German ReactJS Community - reactjs.de][reactjsde]. Feel free to have 
+a look at his project [photoeditorsdk.com][photoeditorsdk] as well.
+
+[@sippndipp][sebastian-deutsch-twitter] (Twitter)<br />
+[@sebastiandeutsch][sebastian-deutsch-github] (GitHub)
 
 # Want to Contribute or Fund?
 
@@ -39,3 +45,7 @@ For better organizing, please let us know if you're going to attend :) [meetup.c
 [markus-fisch-twitter]: http://twitter.com/markusfisch
 [markus-fisch-github]: http://github.com/markusfisch
 [markus-fisch-www]: http://twitter.com/markusfisch
+[sebastian-deutsch-twitter]: http://twitter.com/sippndipp
+[sebastian-deutsch-github]: http://github.com/sebastiandeutsch
+[reactjsde]: http://reactjs.de
+[photoeditorsdk]: http://photoeditorsdk.com
