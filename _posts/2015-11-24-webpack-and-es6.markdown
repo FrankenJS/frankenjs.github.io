@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Webpack & ES6, January 2016"
+title:  "webpack & ES6, January 2016"
 date:   2015-11-25 14:00:00
 ---
 
