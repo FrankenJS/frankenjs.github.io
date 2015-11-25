@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Geeks Meet & Greet. XMAS Dinner."
+title:  "Geeks Meet & Greet. XMAS Dinner 2015."
 date:   2015-11-25 13:00:00
 ---
 
