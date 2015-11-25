@@ -15,4 +15,4 @@ happy about everybody who want to join us :)
 
 But don't worry, we already have speakers and great topics for the meet-up in January :)
 
-[next-meetup]: http://www.meetup.com/de/FrankenJS/events/225731239/
+[next-meetup]: http://www.meetup.com/de/FrankenJS/events/227010898/
