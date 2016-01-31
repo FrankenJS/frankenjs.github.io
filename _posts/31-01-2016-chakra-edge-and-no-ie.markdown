@@ -47,7 +47,7 @@ Please register at [meetup.com][next-meetup]. Since the meetup will be fully cat
 Feel free to contact us via [servus@frankenjs.org][frankenjs-email]:, give us a ping via [@FrankenJS][frankenjs-twitter] or leave a comment at [meetup.com/FrankenJS][meetup-www].
 
 [meetup-www]: http://meetup.com/FrankenJS
-[next-meetup]: http://www.meetup.com/de/FrankenJS/events/227012344
+[next-meetup]: http://www.meetup.com/de-DE/FrankenJS/events/228508658
 [frankenjs-email]: mailto:servus@frankenjs.org
 [frankenjs-twitter]: http://twitter.com/FrankenJS
 [peter-mueller]: http://twitter.com/BaggersIO
