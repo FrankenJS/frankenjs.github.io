@@ -1,9 +1,29 @@
-- name: Coworking Space Nürnberg
+- name: Microsoft
+  website: foo
+  twitter: BaggersIO
+  brand: img
+
+- name: HOTEL DE
+  website: foo
+  twitter: BaggersIO
+  brand: img
+
+- name: SnapADDY
+  website: foo
+  twitter: BaggersIO
+  brand: img
+
+- name: JSCrambler
   website: foo
   twitter: BaggersIO
   brand: img
 
 - name: GLÜCKSEELIG Onlinelösungen GmbH
+  website: foo
+  twitter: BaggersIO
+  brand: img
+
+- name: Coworking Space Nürnberg
   website: foo
   twitter: BaggersIO
   brand: img
