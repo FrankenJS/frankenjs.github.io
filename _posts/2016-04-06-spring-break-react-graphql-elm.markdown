@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spring Break - GraphQL, RxJS Observables & Elm"
-date:   2016-04-06 20:00:00
+date:   2016-04-06 13:00:00
 ---
 
 We're happy to announce the [next JavaScript meetup][next-meetup].
