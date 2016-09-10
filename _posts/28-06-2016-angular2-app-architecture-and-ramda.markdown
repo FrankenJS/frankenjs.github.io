@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cross Platform Apps with Angular 2 & Insights in RamdaJS"
-date: 2016-06-28 18:00:00
++date: 2016-06-28 18:00:00
 ---
 
 We're happy to announce the [next JavaScript meetup][next-meetup], which is hosted at __MID GmbH__ and supported by __Microsoft__ & __Thinktecture__
