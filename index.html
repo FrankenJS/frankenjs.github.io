@@ -4,7 +4,21 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="teaser">
+    <p>
+      We bring <b>JS heroes</b> and <b>web hackers</b> together.
+    </p>
+
+    <p>
+      Our events take place in a period of 2 - 3 months, at different hosts which are located in northern Bavaria - better known as the <b>beautiful Franconia</b> :)
+    </p>
+
+    <p>
+      We love to connect our community with fantastic speakers, open source projects and companies.
+    </p>
+  </div>
+
+
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -17,6 +31,7 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

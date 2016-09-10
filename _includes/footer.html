@@ -2,6 +2,22 @@
 
   <div class="wrapper">
 
+    <div class="with-love">
+
+      <h1 class="page-heading">organized with ♥︎ by</h1>
+
+      {% for member in site.data.team %}
+        <a href="{{ member.twitter }}" target="_blank">
+          <img
+            class="member"
+            src="/assets/team/{{ member.image }}"
+            alt="{{ member.name }}"
+            title="{{member.name}}" />
+        </a>
+      {% endfor %}
+
+    </div>
+
     <h2 class="footer-heading">{{ site.title }}</h2>
 
     <div class="footer-col-wrapper">
@@ -9,7 +25,7 @@
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li><a href="/disclaimer">Impressum</a></li>
+          <li><a href="/disclaimer">Disclaimer</a></li>
         </ul>
       </div>
 

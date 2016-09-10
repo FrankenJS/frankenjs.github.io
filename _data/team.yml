@@ -1,8 +1,7 @@
 - name: Peter Müller
-  twitter: BaggersIO
+  twitter: http://twitter.com/BaggersIO
+  image: peter.jpeg
 
 - name: Sebastian Metzger
-  twitter: sebastianmetzgr
-
-- name: Dominik Scholz
-  twitter: schlotzz
+  twitter: http://twitter.com/sebastianmetzgr
+  image: sebastian.jpeg

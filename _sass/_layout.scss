@@ -2,48 +2,13 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    height: 250px;
+    height: 180px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 
-    background: url('../assets/header.jpeg') center center no-repeat;
-    background-size: cover;
-
-    &:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        
-        background-image:
-            radial-gradient(circle at 80% 10%, red, transparent),
-            radial-gradient(circle at 80% 50%, yellow, transparent),
-            radial-gradient(40em 40em at 20% 80%, #fff, transparent),
-            radial-gradient(circle at 10% 10%, orange, transparent);
-        background-image:
-            -webkit-radial-gradient(80% 10%, circle, red, transparent),
-            -webkit-radial-gradient(80% 50%, circle, yellow, transparent),
-            -webkit-radial-gradient(20% 80%, 40em 40em, #fff, transparent),
-            -webkit-radial-gradient(10% 10%, circle, orange, transparent);
-        background-image:
-            -ms-radial-gradient(80% 10%, circle, red, transparent),
-            -ms-radial-gradient(80% 50%, circle, yellow, transparent),
-            -ms-radial-gradient(20% 80%, 40em 40em, #fff, transparent),
-            -ms-radial-gradient(10% 10%, circle, orange, transparent);
-
-        opacity: .6; 
-    }
-
-    .wrapper {
-        position: relative;
-        z-index: 100;
-    }
+    background: url('../assets/header.svg');
 }
 
 .site-title {
@@ -55,11 +20,12 @@
 
     &,
     &:visited {
-        color: $grey-color-light;
+
     }
 }
 
 .site-nav {
+
     float: right;
     line-height: 56px;
 
@@ -68,13 +34,24 @@
     }
 
     .page-link {
-        color: $grey-color-light;
-        line-height: $base-line-height;
 
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
+      color: #555;
+      display: inline-block;
+      padding: 5px;
+      border-radius: 5px;
+      background: rgba(255,255,255,0.75);
+
+      line-height: $base-line-height;
+
+      // Gaps between nav items, but not on the first one
+      &:not(:first-child) {
+          margin-left: 10px;
+      }
+
+      &:hover {
+
+        text-decoration: none;
+      }
     }
 
     @include media-query($on-palm) {
@@ -270,4 +247,24 @@
             font-size: 18px;
         }
     }
+}
+
+.teaser {
+
+  margin-bottom: 70px;
+}
+
+.with-love {
+
+  text-align: center;
+
+  img {
+
+    margin: 40px;
+  }
+
+  img.member {
+
+    border-radius: 75px;
+  }
 }

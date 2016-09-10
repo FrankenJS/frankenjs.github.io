@@ -1,24 +1,25 @@
 ---
 layout: page
-title: Partner
-permalink: /partners/
+title: Sponsors
+permalink: /sponsors/
 inheader: true
+titleOnlyLink: true
 ---
 
-Ein **FETTES** Dankeschön an unsere Partner und Sponsoren, auf die wir bisher zählen durften. Ohne euch wären all die tollen Meetups nicht möglich gewesen!
+<div class="with-love">
 
-<ul>
-{% for partner in site.data.partners %}
-  <li>
-    <a href="partner.website" target="_blank">
-      {{ partner.name }}
+  <h1 class="page-heading">
+    Big thanks to all our sponsors!
+  </h1>
+
+  {% for partner in site.data.sponsors %}
+    <a href="{{ partner.website }}" target="_blank">
+      <img
+        class="partner"
+        src="/assets/sponsors/{{ partner.brand }}"
+        alt="{{ partner.name }}"
+        title="{{ partner.name }}"/>
     </a>
-  </li>
-{% endfor %}
-</ul>
+  {% endfor %}
 
-# Manifest
-
-Wir freuen uns sehr über das Engagement verschiedener Firmen, unsere Usergroup zu unterstützen. Allerdings werden wir recht häuftig für Recruiting-Zwecke kontaktiert. Wir möchten daher noch einmal ausdrücklich darauf hinweisen, dass unsere Meetups nicht als Werbeplattform für Unternehmen genutzt werden sollen.
-
-Gern platzieren wir entsprechend Logos, legen Flyer aus und erwähnen das Unternehmen zum Start der Veranstaltung. Hier erwarten wir allerdings einen Benefit für die komplette Community. Zum Beispiel in Form von Snacks und/oder Getränken, gern auch JavaScript- und Web bezogene Talks.
+</div>
