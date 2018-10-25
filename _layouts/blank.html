@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ "/css/default.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}">
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

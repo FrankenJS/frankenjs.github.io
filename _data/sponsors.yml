@@ -1,0 +1,99 @@
+- name: Google
+  website: http://google.de
+  brand: google.svg
+
+- name: Microsoft
+  website: http://microsoft.de
+  brand: microsoft.svg
+
+- name: SAMSUNG Internet
+  website: http://www.samsung.com/de/apps/samsung-internet/
+  brand: samsung.svg
+
+- name: 1&1 Internet AG
+  website: http://1und1.de
+  brand: 1und1.svg
+
+- name: DATEV eG
+  website: http://datev.de
+  brand: datev.svg
+
+- name: e.solutions GmbH
+  website: http://esolutions.de
+  brand: esolutions.svg
+
+- name: adesso AG
+  website: http://adesso.de
+  brand: adesso.svg
+
+- name: Consorsbank
+  website: http://consorsbank.de
+  brand: consorsbank.png
+
+- name: ZOLLHOF
+  website: http://zollhof.de
+  brand: zollhof.svg
+
+- name: thinktecture
+  website: http://thinktecture.de
+  brand: thinktecture.svg
+
+- name: thoughtram
+  website: http://thoughtram.io/
+  brand: thoughtram.svg
+
+- name: 9elements
+  website: https://9elements.com/
+  brand: 9elements.svg
+
+- name: PAESSLER
+  website: http://paessler.de
+  brand: paessler.svg
+
+- name: Tradebyte GmbH
+  website: http://tradebyte.de
+  brand: tradebyte.svg
+
+- name: AngularJS.de
+  website: http://angularjs.de
+  brand: angularjsde.svg
+
+- name: adorsys
+  website: http://adorsys.de
+  brand: adorsys.jpg
+
+- name: HOTEL DE
+  website: http://hotel.de
+  brand: hotelde.svg
+
+- name: MID GmbH
+  website: http://www.mid.de
+  brand: mid.svg
+
+- name: FLYERALARM GmbH
+  website: https://www.flyeralarm.com/de/
+  brand: flyeralarm.svg
+
+- name: mayflower GmbH
+  website: https://mayflower.de/
+  brand: mayflower.svg
+
+- name: workshops.de
+  website: https://workshops.de/
+  brand: workshopsde.svg
+
+- name: synoa GmbH
+  website: https://synoa.de
+  brand: synoa.svg
+
+- name: snapADDY
+  website: http://snapaddy.de
+  brand: snapaddy.svg
+
+- name: JSCrambler
+  website: https://jscrambler.com
+  brand: jscrambler.svg
+
+- name: Coworking Nürnberg
+  website: http://coworking-nuernberg.de/
+  brand: coworking.svg

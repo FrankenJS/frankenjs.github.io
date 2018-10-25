@@ -1,0 +1,20 @@
+- name: Peter Müller
+  twitter: http://twitter.com/BaggersIO
+  image: peter.jpeg
+  title: Founder & Organizer
+
+- name: Sebastian Metzger
+  twitter: http://twitter.com/sebastianmetzgr
+  image: sebastian.jpeg
+  title: Organizer
+
+- name: Alex Sherekin
+  twitter: https://twitter.com/AlexSherekin
+  image: alex.jpeg
+  title: Organizer
+
+- name: Nico König
+  twitter: https://twitter.com/thenicokoenig
+  image: nico.jpg
+  title: Organizer
+  

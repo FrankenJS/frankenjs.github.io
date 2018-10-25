@@ -1,0 +1,19 @@
+- name: dotJS
+  website: http://dotjs.io
+  brand: dotjs.svg
+
+- name: AmsterdamJS Conference
+  website: https://amsterdamjs.com/
+  brand: amsterdamjs.svg
+
+- name: enterJS Conference
+  website: https://www.enterjs.de/
+  brand: enterjs.svg
+
+- name: Nürnberg Web Week
+  website: https://nueww.de/
+  brand: nueww.svg
+
+- name: Würzburg Web Week
+  website: https://wueww.de/
+  brand: wueww.svg

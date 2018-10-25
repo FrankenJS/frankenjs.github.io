@@ -1,0 +1,161 @@
+---
+---
+
+$primary-color: #ff857f;
+
+@mixin page-block {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  color: #333;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $primary-color;
+}
+
+.site {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 2em;
+}
+
+.header {
+  @include page-block();
+}
+
+.header__logo {
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+
+.header__headline {
+  text-align: center;
+  color: $primary-color;
+}
+
+.header__slug {
+  text-align: center;
+}
+
+.header__promo {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media__icon {
+  width: 2em;
+}
+
+.cities {
+  @include page-block();
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cities__city {
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .cities__city {
+    width: 100%;
+  }
+}
+
+.group__header {
+  text-align: center;
+}
+
+.group__meetup {
+  text-align: center;
+}
+
+.group__meetup-link {
+  display: inline-block;
+  color: $primary-color;
+  text-decoration: none;
+  border: 3px solid $primary-color;
+  padding: 7px;
+
+  &:hover {
+    background: $primary-color;
+    color: #fff;
+  }
+}
+
+.group__next-event {
+  margin: 25px 0;
+}
+
+.event {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.event__meta {
+  font-weight: normal;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.event__title {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.sponsors {
+  @include page-block();
+  text-align: center;
+}
+
+.sponsors__headline {
+  text-align: center;
+}
+
+.sponsors__sponsor {
+  width: 100px;
+  margin: 25px;
+}
+
+.team {
+  @include page-block();
+  text-align: center;
+}
+
+.team__headline {
+  text-align: center;
+}
+
+.team__member {
+  width: 150px;
+  margin: 25px;
+  border-radius: 50%;
+}
+
+.footer {
+  @include page-block();
+  text-align: center;
+}

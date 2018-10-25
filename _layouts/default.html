@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }}</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="FrankenJS is a community for JavaScript and web developers in Franconia, Bavaria, Germany. We meet in periods of 2-3 months at local companies in the region.">
+    <meta name="keywords" content="JavaScript, JS, HTML5, Web, Development, Entwicklung, Franken, Nürnberg, Würzburg, Erlangen, Fürth, User group, Meetup, Treffen">
+    <meta name="autor" content="Peter Müller">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="{{ "css/default.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}">
+  </head>
+  <body>
+    <main class="site">
+      <header class="header">
+        <img
+          class="header__logo"
+          src="assets/logo.svg"
+          alt="FrankenJS Logo"
+          title="FrankenJS Logo" />
+        <h1 class="header__headline">FrankenJS</h1>
+        <h2 class="header__slug">Franconias finest JavaScript user group</h2>
+        <p class="header__promo">
+          We connect JS heroes and web hackers. Our events take place in a period of 2 - 3 months, at different hosts which are located in northern Bavaria - better known as the beautiful Franconia. We love to connect our community with fantastic speakers, open source projects and companies.
+        </p>
+        <div class="social-media">
+          <a href="https://twitter.com/frankenjs" target="_blank" rel="noopener"><img class="social-media__icon" src="assets/icons/twitter.svg" /></a>
+        </div>
+      </header>
+      <div class="cities">
+        <div class="cities__city group">
+          <h2 class="group__header">Nürnberg (FÜ/ER)</h2>
+          <div class="group__meetup">
+            <a class="group__meetup-link" href="https://www.meetup.com/frankenjs/" target="_blank" rel="noopener">Nürnberg @meetup.com</a>
+          </div>
+          {% if site.data.events.nuernberg %}
+          <div class="event">
+            <div class="event__meta">{{ site.data.events.nuernberg.date }} @{{ site.data.events.nuernberg.host }}</div>
+            <a href="{{ site.data.events.wuerzburg.link }}" class="event__title" target="_blank" rel="noopener">{{ site.data.events.nuernberg.name }}</a>
+          </div>
+          {% else %}
+          <div class="event">
+            <div class="event__meta">No upcoming events published</div>
+          </div>
+          {% endif %}
+        </div>
+        <div class="cities__city group">
+          <h2 class="group__header">Würzburg</h2>
+          <div class="group__meetup">
+            <a class="group__meetup-link" href="https://www.meetup.com/Front-End-Wuerzburg/" target="_blank" rel="noopener">Würzburg @meetup.com</a>
+          </div>
+          {% if site.data.events.wuerzburg %}
+          <div class="event">
+            <div class="event__meta">{{ site.data.events.wuerzburg.date }} @{{ site.data.events.wuerzburg.host }}</div>
+            <a href="{{ site.data.events.wuerzburg.link }}" class="event__title" target="_blank" rel="noopener">{{ site.data.events.wuerzburg.name }}</a>
+          </div>
+          {% else %}
+          <div class="event">
+            <div class="event__meta">No upcoming events published</div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      <div class="team">
+        <h2 class="team__headline">Organizers</h2>
+        {% for member in site.data.team %}
+        <a href="{{ member.twitter }}" target="_blank" rel="noopener">
+          <img
+            class="team__member"
+            src="/assets/team/{{ member.image }}"
+            alt="{{ member.name }}"
+            title="{{ member.name }}"/>
+        </a>
+        {% endfor %}        
+      </div>
+      <div class="sponsors">
+        <h2 class="sponsors__headline">Sponsors</h2>
+        {% for sponsor in site.data.sponsors %}
+        <a href="{{ sponsor.website }}" target="_blank" rel="noopener">
+          <img
+            class="sponsors__sponsor"
+            src="/assets/sponsors/{{ sponsor.brand }}"
+            alt="{{ sponsor.name }}"
+            title="{{ sponsor.name }}"/>
+        </a>
+        {% endfor %}
+      </div>
+      <div class="sponsors">
+        <h2 class="sponsors__headline">Partners</h2>
+        {% for partner in site.data.partners %}
+        <a href="{{ partner.website }}" target="_blank" rel="noopener">
+          <img
+            class="sponsors__sponsor"
+            src="/assets/partners/{{ partner.brand }}"
+            alt="{{ partner.name }}"
+            title="{{ partner.name }}"/>
+        </a>
+        {% endfor %}
+      </div>
+      <footer class="footer">
+        <a href="https://berlincodeofconduct.org" target="_blank" rel="noopener">Code of Conduct</a> &bull;
+        <a href="#">Imprint</a> &bull;
+        <a href="/data-privacy/" target="_blank">Data Privacy</a>
+      </footer>
+    </main>
+  </body>
+</html>
