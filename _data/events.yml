@@ -1,7 +1,7 @@
 nuernberg:
 
 wuerzburg:
-#  name: Web Assembly
-#  host: Mayflower GmbH
-#  date: November 28, 2018
-#  link: about:blank
+  name: Modern React, Memory Leaks & WebAssembly with PWA
+  host: Mayflower GmbH
+  date: November 22, 2018
+  link: https://www.meetup.com/de-DE/Front-End-Wuerzburg/events/256158279/
