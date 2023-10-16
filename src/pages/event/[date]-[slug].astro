@@ -1,0 +1,11 @@
+---
+export function getStaticPaths() {
+  return [
+    {params: {date: '2023-10-26', slug: 'react-and-remix-and-graphql-antipattern-and-htmx'}},
+    {params: {date: '2023-11-30', slug: 'javascript-escalation'}},
+  ];
+}
+
+const { slug } = Astro.params;
+---
+<div>Good dog, {slug}!</div>

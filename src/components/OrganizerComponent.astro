@@ -1,0 +1,16 @@
+---
+import { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+
+interface Props {
+  organizer: CollectionEntry<'organizers'>;
+}
+
+const { organizer } = Astro.props;
+const { firstName, lastName, photo, xUsername } = organizer.data;
+const fullName = `${firstName} ${lastName}`
+const xUrl = `https://x.com/${xUsername}`;
+---
+<a href={xUrl} target="_blank">
+  <Image class="rounded-full inline-block w-32 m-4" src={photo} title={fullName} alt={`Image of ${fullName}`} />
+</a>

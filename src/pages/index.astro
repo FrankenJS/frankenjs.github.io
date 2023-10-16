@@ -1,0 +1,94 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+import EventComponent from '../components/EventComponent.astro';
+import OrganizerComponent from '../components/OrganizerComponent.astro';
+import CompanyComponent from '../components/CompanyComponent.astro';
+
+const upcomingEvents = await getCollection('events', ({ data }) => {
+	return data.endDateTime.getTime() > Date.now();
+});
+
+const organizers = (await getCollection('organizers')).sort((a, b) => {
+	return a.data.since - b.data.since;
+});
+
+const companies = (await getCollection('companies'));
+---
+
+<Layout title="FrankenJS - Franconias finest JavaScript user group">
+	<header>
+	</header>
+	<main>
+		<section class="mt-8 mb-14 grid grid-cols-1">
+			<h1 class="text-5xl mb-2 text-primary font-extrabold">FrankenJS</h1>
+			<h3 class="text-2xl mb-5">Franconia's Finest JavaScript User Group</h3>
+			<p class="w-3/4">We connect JS enthusiasts and web hackers. Our events take place for 2 - 3 months at different hosts in northern Bavaria - better known as the beautiful Franconia. We love to unite our community with fantastic speakers, open-source projects, and companies. </p>
+		</section>
+		<section class="mt-8 mb-8 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
+			{upcomingEvents.map((event: any) => (
+				<div class="mb-8">
+					<EventComponent event={event} />
+				</div>
+			))}
+		</section>
+		<hr class="mt-20 mb-20 grid grid-cols-1" />
+		<section class="mt-8 mb-8 grid grid-cols-1">
+			<h2 class="text-5xl mb-2 text-primary font-extrabold">Sponsors</h2>
+			<p class="text-2xl mb-5 w-3/4">Have you ever wondered why we can run free meetups with superb speakers, including food and drinks?<br /><br />That's why:</p>
+			<div class="flex flex-row flex-wrap items-center mt-5">
+				{companies.map((company: any) => (
+					<div class="md:w-1/4">
+						<CompanyComponent company={company}></CompanyComponent>
+					</div>
+				))}
+			</div>
+		</section>
+		<hr class="mt-20 mb-20 grid grid-cols-1" />
+		<section class="mt-10 mb-10 grid grid-cols-1">
+			<div class="text-center">
+				<i>organized by</i>
+			</div>
+			<div class="text-center">
+				{organizers.map((organizer: any) => (
+					<OrganizerComponent organizer={organizer}></OrganizerComponent>
+				))}
+			</div>
+		</section>
+		<section class="mt-10 mb-10 grid grid-cols-1">
+			<div class="text-center">
+				<i>curated by</i>
+			</div>
+			<div class="flex flex-col items-center sm:justify-center sm:flex-row">
+				<a href="https://qupaya.com" >
+					<img class="m-4" src="/logos/qupaya.svg" alt="" width="200" height="50" />
+				</a>
+				<a href="https://snapaddy.de">
+					<img class="m-4" src="/logos/snapaddy.svg" alt=""  width="200" height="50" />
+				</a>
+			</div>
+			<div class="text-center">
+				<a href="#">Read more about how the community is curated and organized.</a>
+			</div>
+		</section>
+	</main>
+	<footer>
+
+	</footer>
+</Layout>
+
+<style>
+	header {
+		height: 200px;
+		background-image: url(tiles.svg);
+		background-repeat: repeat-x;
+		background-size: auto 200px;
+		background-position: center;
+		padding-top: 200px;
+	}
+
+	main {
+		@apply max-w-5xl pl-6 pr-6 mx-auto;
+	}
+</style>
