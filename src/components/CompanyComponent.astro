@@ -1,0 +1,14 @@
+---
+import { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+
+interface Props {
+  company: CollectionEntry<'companies'>;
+}
+
+const { company } = Astro.props;
+const { name, website, logo } = company.data;;
+---
+<a href={website} target="_blank">
+  <Image class="inline-block w-32 m-4" src={logo} title={name} alt={`Image of ${name}`} />
+</a>

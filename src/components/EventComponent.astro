@@ -1,0 +1,43 @@
+---
+import { CollectionEntry, getEntries  } from 'astro:content';
+
+interface Props {
+  event: CollectionEntry<'events'>;
+}
+
+// `post` will match your 'blog' collection schema type
+const { event } = Astro.props;
+
+const talks: CollectionEntry<'talks'>[] = await getEntries(event.data.talks);
+
+const isUpcoming: boolean = event.data.endDateTime.getTime() > Date.now();
+---
+<div>
+  { isUpcoming ? <span class="text-xs bg-slate-600 text-white rounded p-1 pr-2 pl-2 uppercase">🔥 upcoming</span> : '' }
+  <span class="text-xs bg-slate-600 text-white rounded p-1 pr-2 pl-2">{event.data.startDateTime.toLocaleDateString('de-DE')}</span>
+  <span class="text-xs bg-slate-600 text-white rounded p-1 pr-2 pl-2">{event.data.city}</span>
+  <span class="text-xs bg-slate-600 text-white rounded p-1 pr-2 pl-2">{event.data.seats} Seats</span>
+</div>
+<h2 class="text-primary text-3xl mt-2 mb-2">{event.data.title}</h2>
+<ul>
+    {talks.map(async (talk: CollectionEntry<'talks'>) => (
+      <li class="flex before:content-['//'] before:mr-2 before:text-slate-600 before:font-mono before:font-extrabold">
+        <div>
+          {talk.data.title}<br />
+          <small>{(await getEntries(talk.data.speakers)).map(speaker => (
+            <div>{speaker.data.name}{speaker.data.company ? `, ${speaker.data.company}` : ''}</div>
+          ))}</small>
+        </div>
+      </li>
+    ))}
+  
+</ul>
+<div class="text-sm mt-2">
+  📍 <a class="text-primary underline" href={'https://www.google.com/maps/search/' + event.data.address} target="_blank">{event.data.address}</a>
+</div>
+<div class="mt-6">
+  <a class="pointer bg-slate-600 rounded text-white p-3 hover:bg-primary" href={event.data.meetupUrl} target="_blank">RSVP Free Seat</a>
+</div>
+<style>
+  
+</style>
