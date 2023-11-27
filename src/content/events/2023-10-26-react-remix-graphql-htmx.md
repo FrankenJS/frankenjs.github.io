@@ -15,4 +15,3 @@ sponsors:
     company: 'nuernberger-versicherung'
 ---
 
-This event is insane!
